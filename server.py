@@ -69,7 +69,7 @@ if __name__ == '__main__':
     handler = BasicAuthHandler
 
     # Server Header 
-    handler.server_version = ' '
+    handler.server_version = ''
     handler.sys_version = ''
 
     # SimpleHTTPServer Setup
